@@ -11,7 +11,7 @@ import (
 )
 
 func Day1() int {
-	const file_path = "./problems/day1_input.txt"
+	const file_path = "./problems/inputs/day1_input.txt"
 
 	// read line by line from the file
 	file, err := os.Open(file_path)
